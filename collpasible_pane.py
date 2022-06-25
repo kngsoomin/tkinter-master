@@ -48,7 +48,6 @@ img = tk.PhotoImage(file=path)
 
 # Create label for image
 panel = tk.Label(frame_cllp, image=img)
-panel.image = img
 panel.pack(fill = "both", expand = "yes")
 
 root.mainloop()

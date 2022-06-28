@@ -3,6 +3,7 @@ import tkinter.ttk as ttk
 
 
 def active_panel():
+    '''Expand and hide a collapsible pane'''
     if var.get():
         # Expand pane
         root.geometry('600x300')
